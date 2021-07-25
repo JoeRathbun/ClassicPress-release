@@ -73,21 +73,21 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 					/* translators: 1: link with instructions to join ClassicPress Slack, 2: link to community forums */
 					__( 'For general discussion about ClassicPress, <a href="%1$s"><strong>join our Slack group</strong></a> or our <a href="%2$s"><strong>community forum</strong></a>.' ),
 					'https://www.classicpress.net/join-slack/',
-					'https://forums.classicpress.net/c/support'
+					'https://forums.classicpress.net/'
 				); ?>
 			</p>
 			<p>
 				<?php printf(
 					/* translators: link to ClassicPress Petitions site for new features */
 					__( 'Suggestions for improvements to future versions of ClassicPress are welcome at <a href="%s"><strong>our petitions site</strong></a>.' ),
-					'https://petitions.classicpress.net/'
+					'https://forums.classicpress.net/c/governance/petitions/77'
 				); ?>
 			</p>
 			<p>
 				<?php printf(
 					/* translators: 1: link to ClassicPress FAQs page, 2: link to ClassicPress support forum */
 					__( 'If you need help with something else, please see our <a href="%1$s"><strong>FAQs page</strong></a>. If your question is not answered there, you can make a new post on our <a href="%2$s"><strong>support forum</strong></a>.' ),
-					'https://docs.classicpress.net/faq-support/',
+					'https://docs.classicpress.net/user-guides/faq-and-support/',
 					'https://forums.classicpress.net/c/support/'
 				); ?>
 			</p>
